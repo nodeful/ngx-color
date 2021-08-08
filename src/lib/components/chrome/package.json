@@ -1,5 +1,5 @@
 {
-  "name": "ngx-color/chrome",
+  "name": "@nodeful/ngx-color/chrome",
   "author": "nodeful",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
       "umdModuleIds": {
         "material-colors": "material-colors",
         "@ctrl/tinycolor": "@ctrl/tinycolor",
-        "ngx-color": "ngx-color"
+        "@nodeful/ngx-color": "@nodeful/ngx-color"
       }
     },
     "dest": "../../../../dist/packages-dist/chrome"

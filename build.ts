@@ -23,7 +23,7 @@ const MODULE_NAMES = [
 async function main() {
   // cleanup dist
   del.sync(join(process.cwd(), '/dist'));
-  del.sync(join(process.cwd(), '/node_modules/ngx-color'));
+  del.sync(join(process.cwd(), '/node_modules/@nodeful/ngx-color'));
 
   await ngPackagr()
     .forProject(join(process.cwd(), 'src/lib/common/package.json'))
@@ -33,7 +33,7 @@ async function main() {
   // proper path support eventually
   copySync(
     join(process.cwd(), '/dist/common'),
-    join(process.cwd(), '/node_modules/ngx-color'),
+    join(process.cwd(), '/node_modules/@nodeful/ngx-color'),
   );
   copySync(
     join(process.cwd(), '/dist/common'),

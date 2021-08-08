@@ -22,7 +22,7 @@
       "dom"
     ],
     "paths": {
-      "ngx-color": ["./src/lib/common/public_api"]
+      "@nodeful/ngx-color": ["./src/lib/common/public_api"]
     }
   },
   "angularCompilerOptions": {

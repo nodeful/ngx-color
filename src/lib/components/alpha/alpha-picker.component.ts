@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, forwardRef, Input, NgModule, OnChanges } from '@angular/core';
 
-import { AlphaModule, CheckboardModule, ColorWrap, toState } from 'ngx-color';
+import { AlphaModule, CheckboardModule, ColorWrap, toState } from '@nodeful/ngx-color';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 
 @Component({

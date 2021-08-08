@@ -21,7 +21,7 @@ import {
   yellow,
 } from 'material-colors';
 
-import { ColorWrap, RaisedModule, SwatchModule, zDepth } from 'ngx-color';
+import { ColorWrap, RaisedModule, SwatchModule, zDepth } from '@nodeful/ngx-color';
 import { SwatchesColorComponent } from './swatches-color.component';
 import { SwatchesGroupComponent } from './swatches-group.component';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';

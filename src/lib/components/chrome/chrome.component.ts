@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, forwardRef, Input, NgModule } from '@angular/core';
 
-import { AlphaModule, CheckboardModule, ColorWrap, EditableInputModule, HueModule, SaturationModule } from 'ngx-color';
+import { AlphaModule, CheckboardModule, ColorWrap, EditableInputModule, HueModule, SaturationModule } from '@nodeful/ngx-color';
 import { ChromeFieldsComponent } from './chrome-fields.component';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 

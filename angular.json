@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-color": {
+    "@nodeful/ngx-color": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -74,18 +74,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-color:build"
+            "browserTarget": "@nodeful/ngx-color:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-color:build:production"
+              "browserTarget": "@nodeful/ngx-color:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-color:build"
+            "browserTarget": "@nodeful/ngx-color:build"
           }
         },
         "test": {
@@ -117,7 +117,7 @@
       }
     }
   },
-  "defaultProject": "ngx-color",
+  "defaultProject": "@nodeful/ngx-color",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics"
   }

@@ -6,7 +6,7 @@ import {
   Output,
 } from '@angular/core';
 
-import { isValidHex, RGBA } from 'ngx-color';
+import { isValidHex, RGBA } from '@nodeful/ngx-color';
 
 @Component({
   selector: 'color-compact-fields',

@@ -6,7 +6,7 @@ import {
   Output,
 } from '@angular/core';
 
-import { HSL } from 'ngx-color';
+import { HSL } from '@nodeful/ngx-color';
 
 @Component({
   selector: 'color-slider-swatches',

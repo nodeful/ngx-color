@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, forwardRef, Input, NgModule, OnChanges } from '@angular/core';
 
-import { ColorWrap, HueModule, toState } from 'ngx-color';
+import { ColorWrap, HueModule, toState } from '@nodeful/ngx-color';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 
 @Component({

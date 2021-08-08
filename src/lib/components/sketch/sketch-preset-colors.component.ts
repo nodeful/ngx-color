@@ -6,7 +6,7 @@ import {
   Output,
 } from '@angular/core';
 
-import { Shape } from 'ngx-color';
+import { Shape } from '@nodeful/ngx-color';
 
 @Component({
   selector: 'color-sketch-preset-colors',

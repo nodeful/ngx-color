@@ -1,5 +1,5 @@
 {
-  "name": "ngx-color/hue",
+  "name": "@nodeful/ngx-color/hue",
   "author": "nodeful",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
       "umdModuleIds": {
         "material-colors": "material-colors",
         "@ctrl/tinycolor": "@ctrl/tinycolor",
-        "ngx-color": "ngx-color"
+        "@nodeful/ngx-color": "@nodeful/ngx-color"
       }
     },
     "dest": "../../../../dist/packages-dist/hue"

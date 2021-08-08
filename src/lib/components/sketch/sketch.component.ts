@@ -10,7 +10,7 @@ import {
   isValidHex,
   SaturationModule,
   SwatchModule,
-} from 'ngx-color';
+} from '@nodeful/ngx-color';
 import { SketchFieldsComponent } from './sketch-fields.component';
 import { SketchPresetColorsComponent } from './sketch-preset-colors.component';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';

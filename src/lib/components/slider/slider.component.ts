@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, forwardRef, Input, NgModule } from '@angular/core';
 
-import { ColorWrap, HueModule, SwatchModule } from 'ngx-color';
+import { ColorWrap, HueModule, SwatchModule } from '@nodeful/ngx-color';
 import { SliderSwatchComponent } from './slider-swatch.component';
 import { SliderSwatchesComponent } from './slider-swatches.component';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';

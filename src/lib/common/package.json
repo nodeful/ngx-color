@@ -20,7 +20,7 @@
       "entryFile": "public_api.ts",
       "umdModuleIds": {
         "@ctrl/tinycolor": "@ctrl/tinycolor",
-        "ngx-color": "ngx-color"
+        "@nodeful/ngx-color": "@nodeful/ngx-color"
       }
     },
     "whitelistedNonPeerDependencies": ["@ctrl/tinycolor", "material-colors"],

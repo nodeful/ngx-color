@@ -22,7 +22,7 @@ import {
 } from 'material-colors';
 import { TinyColor } from '@ctrl/tinycolor';
 
-import { ColorWrap, isValidHex, SwatchModule } from 'ngx-color';
+import { ColorWrap, isValidHex, SwatchModule } from '@nodeful/ngx-color';
 import { CircleSwatchComponent } from './circle-swatch.component';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 

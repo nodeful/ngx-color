@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, forwardRef, Input, NgModule } from '@angular/core';
 
-import { ColorWrap, EditableInputModule, isValidHex, RaisedModule, SwatchModule, zDepth } from 'ngx-color';
+import { ColorWrap, EditableInputModule, isValidHex, RaisedModule, SwatchModule, zDepth } from '@nodeful/ngx-color';
 import { CompactColorComponent } from './compact-color.component';
 import { CompactFieldsComponent } from './compact-fields.component';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';

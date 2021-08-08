@@ -1,5 +1,5 @@
 {
-  "name": "ngx-color/compact",
+  "name": "@nodeful/ngx-color/compact",
   "author": "nodeful",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
     "lib": {
       "entryFile": "compact.component.ts",
       "umdModuleIds": {
-        "ngx-color": "ngx-color",
+        "@nodeful/ngx-color": "@nodeful/ngx-color",
         "material-colors": "material-colors",
         "@ctrl/tinycolor": "@ctrl/tinycolor"
       }

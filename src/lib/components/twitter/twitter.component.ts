@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, forwardRef, Input, NgModule } from '@angular/core';
 
-import { ColorWrap, EditableInputModule, isValidHex, SwatchModule } from 'ngx-color';
+import { ColorWrap, EditableInputModule, isValidHex, SwatchModule } from '@nodeful/ngx-color';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 
 @Component({

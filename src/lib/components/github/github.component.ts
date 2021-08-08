@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, forwardRef, Input, NgModule } from '@angular/core';
 
-import { ColorWrap, isValidHex, SwatchModule } from 'ngx-color';
+import { ColorWrap, isValidHex, SwatchModule } from '@nodeful/ngx-color';
 import { GithubSwatchComponent } from './github-swatch.component';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 
