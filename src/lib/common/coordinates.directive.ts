@@ -79,16 +79,18 @@ export class CoordinatesDirective implements OnInit, OnDestroy {
   }
 
   handleChange(x: number, y: number, $event: Event, isTouch: boolean) {
-    const containerWidth = this.el.nativeElement.clientWidth;
-    const containerHeight = this.el.nativeElement.clientHeight;
-    const left =
-      x -
-      (this.el.nativeElement.getBoundingClientRect().left + window.pageXOffset);
-    let top = y - this.el.nativeElement.getBoundingClientRect().top;
-
+    const el = this.el.nativeElement
+    const containerWidth = el.clientWidth;
+    const containerHeight = el.clientHeight;
+    const rect = el.getBoundingClientRect()
+    let left = x - (rect.left + window.pageXOffset);
+    let top = y - rect.top;
+    const scale = rect.width / el.clientWidth
     if (!isTouch) {
       top = top - window.pageYOffset;
     }
+    left /= scale
+    top /= scale
     this.coordinatesChange.next({
       x,
       y,

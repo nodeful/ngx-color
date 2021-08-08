@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/scttcper/ngx-color/master/misc/sketch-example.png" width="225" alt="Angular color sketch preview">
+  <img src="https://raw.githubusercontent.com/nodeful/ngx-color/master/misc/sketch-example.png" width="225" alt="Angular color sketch preview">
   <br>
   <h1>Angular Color</h1>
   <br>
   <a href="https://www.npmjs.org/package/ngx-color">
     <img src="https://badge.fury.io/js/ngx-color.svg" alt="npm">
   </a> 
-  <a href="https://circleci.com/gh/scttcper/ngx-color">
-    <img src="https://circleci.com/gh/scttcper/ngx-color.svg?style=svg" alt="circleci"></a> 
-  <a href="https://codecov.io/github/scttcper/ngx-color">
-    <img src="https://img.shields.io/codecov/c/github/scttcper/ngx-color.svg" alt="codecov">
+  <a href="https://circleci.com/gh/nodeful/ngx-color">
+    <img src="https://circleci.com/gh/nodeful/ngx-color.svg?style=svg" alt="circleci"></a> 
+  <a href="https://codecov.io/github/nodeful/ngx-color">
+    <img src="https://img.shields.io/codecov/c/github/nodeful/ngx-color.svg" alt="codecov">
   </a>
 </div>
 
@@ -276,5 +276,5 @@ None
 
 ---
 
-> GitHub [@scttcper](https://github.com/scttcper) &nbsp;&middot;&nbsp;
-> Twitter [@scttcper](https://twitter.com/scttcper)
+> GitHub [@nodeful](https://github.com/nodeful) &nbsp;&middot;&nbsp;
+> Twitter [@nodeful](https://twitter.com/nodeful)

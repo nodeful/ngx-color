@@ -1,10 +1,10 @@
 {
-  "name": "ngx-color",
+  "name": "@nodeful/ngx-color",
   "version": "0.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/scttcper/ngx-color",
-  "bugs": "https://github.com/scttcper/ngx-color/issues",
-  "repository": "scttcper/ngx-color",
+  "homepage": "https://github.com/nodeful/ngx-color",
+  "bugs": "https://github.com/nodeful/ngx-color/issues",
+  "repository": "nodeful/ngx-color",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

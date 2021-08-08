@@ -1,9 +1,9 @@
 {
   "name": "ngx-color/hue",
-  "author": "scttcper",
+  "author": "nodeful",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scttcper/ngx-color.git"
+    "url": "git+https://github.com/nodeful/ngx-color.git"
   },
   "ngPackage": {
     "lib": {
